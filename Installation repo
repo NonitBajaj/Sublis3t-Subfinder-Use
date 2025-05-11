@@ -1,0 +1,12 @@
+# Subdomain Enumeration Tools – Subfinder & Sublist3r
+
+This repository is a collection of my learning, usage guides, and notes related to subdomain enumeration using:
+
+- **[Subfinder](https://github.com/projectdiscovery/subfinder)** – A fast passive subdomain enumeration tool by ProjectDiscovery.
+- **[Sublist3r](https://github.com/aboul3la/Sublist3r)** – A Python-based tool for enumerating subdomains using OSINT.
+
+## 🔧 Tools Setup
+
+### Subfinder
+```bash
+GO111MODULE=on go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
